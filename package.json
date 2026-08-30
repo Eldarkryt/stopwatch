@@ -1,0 +1,23 @@
+{
+  "name": "stopwatch",
+  "version": "1.0.0",
+  "description": "stopwatch",
+  "homepage": "https://github.com/Eldarkryt/stopwatch#readme",
+  "bugs": {
+    "url": "https://github.com/Eldarkryt/stopwatch/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eldarkryt/stopwatch.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build":"parcel build src/index.html --public-url ./"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
